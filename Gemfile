@@ -79,3 +79,4 @@ gem 'simple_form'
 gem "font-awesome-rails"
 gem 'devise'
 gem 'carrierwave', '~> 2.0'
+gem 'fog-aws'

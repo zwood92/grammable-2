@@ -1,4 +1,8 @@
-# FactoryBot.define do
+FactoryBot.define do
+  factory :picture do
+    
+  end
+
 #   factory :comment do
 
 #   end
@@ -16,4 +20,4 @@
 
 #     association :user
 #   end
-# end
+end

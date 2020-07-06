@@ -1,6 +1,7 @@
 # config/initializers/carrierwave.rb
 
 CarrierWave.configure do |config|
+  # config.storage    = :aws
   config.fog_provider = 'fog/aws'                        # required
   config.fog_credentials = {
     provider:              'AWS',                        # required
@@ -9,3 +10,5 @@ CarrierWave.configure do |config|
   }
   config.fog_directory  = ENV["AWS_BUCKET"]              # required
 end
+
+
